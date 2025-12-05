@@ -1,0 +1,18 @@
+Package: dataCleaning
+Type: Package
+Title: A Package for Cleaning Survey Data
+Version: 0.1.0
+Authors@R: person("Nevil", "Maloba", email = "nevillemaloba@gmail.com", role = c("aut", "cre"))
+Description: This package provides functions to clean survey data, including reading Excel files,
+    cleaning and shortening column names, converting categorical variables to factors,
+    and saving the cleaned data in SPSS format with variable labels.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    readxl,
+    dplyr,
+    janitor,
+    haven,
+    labelled
