@@ -27,7 +27,6 @@ This package is not yet on CRAN. You can install the development version from Gi
 # install.packages("remotes")
 remotes::install_github("TheAlchemistNerd/surveypRepaR")
 ```
-*Replace `YOUR_USERNAME` with the actual GitHub username where this repository is hosted.*
 
 ## Usage
 
