@@ -1,0 +1,11 @@
+feat: Initial commit of data cleaning R package
+
+This commit introduces the first version of an R package designed to clean survey data.
+
+The package provides a set of functions to perform a complete data cleaning workflow, including:
+- Loading survey data from Excel files.
+- Cleaning column names to be `janitor` friendly and then shortening them for SPSS compatibility.
+- Trimming whitespace and removing empty rows/columns.
+- Automatically detecting categorical variables and converting them to factors.
+- Attaching original survey questions as variable labels for clarity.
+- Saving the final cleaned dataset as an SPSS (.sav) file with labels preserved.

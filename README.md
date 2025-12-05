@@ -1,6 +1,6 @@
 # surveypRepaR
 
-[![R-CMD-check](https://github.com/YOUR_USERNAME/surveypRepaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YOUR_USERNAME/surveypRepaR/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/TheAlchemistNerd/surveypRepaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YOUR_USERNAME/surveypRepaR/actions/workflows/R-CMD-check.yaml)
 
 > An R package for efficient survey data cleaning. `surveypRepaR` transforms raw survey data from Excel files into analysis-ready SPSS (.sav) files.
 
@@ -25,7 +25,7 @@ This package is not yet on CRAN. You can install the development version from Gi
 
 ```r
 # install.packages("remotes")
-remotes::install_github("YOUR_USERNAME/surveypRepaR")
+remotes::install_github("TheAlchemistNerd/surveypRepaR")
 ```
 *Replace `YOUR_USERNAME` with the actual GitHub username where this repository is hosted.*
 
